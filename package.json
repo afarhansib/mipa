@@ -1,0 +1,28 @@
+{
+  "name": "mipa",
+  "version": "1.0.0",
+  "description": "Mimi Panel. Minecraft Bedrock Dedicated Server Wrapper.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/example.js",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/afarhansib/mipa"
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock"
+  ],
+  "author": "afarhansib",
+  "license": "Unlicense",
+  "dependencies": {
+    "@types/node": "^22.9.1",
+    "@types/node-cron": "^3.0.11",
+    "chokidar": "^4.0.1",
+    "node-cron": "^3.0.3",
+    "typescript": "^5.6.3"
+  }
+}
